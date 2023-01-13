@@ -386,7 +386,7 @@ l .dscr .inner a {
 
 .secondsubconTent {
   position: relative;
-  padding: 50px 0 20px 0;
+  padding: 50px 0 100px 0;
   width: 1200px;
   margin: 0 auto;
 }
@@ -453,13 +453,17 @@ p {
   justify-content: space-between;
 }
 
+.secondsubconTent li {
+  font-weight: 600;
+}
+
 .search .inner span {
   border: 1px solid black;
   padding: 0 5px;
 }
 
 .secondsubcustomer {
-  padding: 15px;
+  padding: 0 0 100px 0;
 }
 
 .secondsubcustomer .img_box {
