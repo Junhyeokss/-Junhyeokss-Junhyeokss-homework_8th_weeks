@@ -1,1 +1,1 @@
-# -Junhyeokss-Junhyeokss-homework_8th_weeks
+# Junhyeokss-homework_8th_weeks
