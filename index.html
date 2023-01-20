@@ -4,223 +4,315 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/common.css" />
-    <link rel="stylesheet" href="./css/reset.css" />
-    <link rel="stylesheet" href="./css/font.css" />
-    <link rel="stylesheet" href="./css/slick.css" />
-    <link rel="stylesheet" href="./css/main.css" />
     <title>Document</title>
+    <link rel="stylesheet" href="./css/default.css" />
+    <link rel="stylesheet" href="./css/font.css" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/slick.css" />
+    <link rel="stylesheet" href="./css/common.css" />
+    <link rel="stylesheet" href="./css/main.css" />
     <script src="./js/jquery-1.12.4.min.js"></script>
     <script src="./js/slick.min.js"></script>
-    <script src="./js/main.js" defer></script>
+    <script src="./js/main.js"></script>
   </head>
   <body>
-    <header class="header">
-      <div class="inner">
-        <h1>
-          <a href="./index.html"><img src="./img/logo.png" alt="" /></a>
-        </h1>
-        <ul>
-          <li><a href="./subpage1.html">기업정보</a></li>
-          <li><a href="./subpage2.html">사업분야</a></li>
-          <li><a href="./subpage3.html">IR정보</a></li>
-          <li><a href="./subpage4.html">홍보센터</a></li>
-          <li><a href="./subpage5.html">채용정보</a></li>
-          <li><a href="">고객지원</a></li>
-        </ul>
-        <div class="language">
-          <form action="">
-            <select name="" id="">
-              <option value="">Language</option>
-              <option value="">EN</option>
-              <option value="">KO</option>
-              <option value="">JP</option>
-            </select>
-          </form>
+    <div class="Wrap">
+      <header class="header">
+        <div class="top_banner">
+          <div class="inner">
+            <ul>
+              <li><a href="./subpage.html">이용안내</a></li>
+              <li><a href="">장바구니</a></li>
+              <li><a href="">마이페이지</a></li>
+              <li><a href="">LOGIN</a></li>
+            </ul>
+          </div>
         </div>
-      </div>
-    </header>
 
-    <section class="mainVisual">
-      <div class="mainSlide">
-        <div class="itm">
-          <figure>
-            <a href=""><img src="./img/main1.jpg" alt="" /></a>
-            <h2>DAE SUN SHIPBUILDING & ENGINEERING CO., LTD.</h2>
-            <p>미래 기술을 선도하는 조선소</p>
-            <span>
-              대한민국 최초의 민영 조선소로써 대한민국 중소형 조선의 역사를 함께
-              써내려 가겠습니다.</span
-            >
-          </figure>
+        <div class="head_container">
+          <div class="inner">
+            <h1>
+              <a href="/"><img src="./img/Tirepick.svg" alt="" /></a>
+            </h1>
+            <div class="search">
+              <input type="text" placeholder="차량번호/ 상품명 / 사이즈 검색" />
+              <button><i class="xi-search"></i></button>
+            </div>
+            <nav class="gnb">
+              <ul>
+                <li>
+                  <a href="./subpage.html" target="_self">타이어</a>
+                </li>
+                <li>
+                  <a href="./subpage.html">배터리</a>
+                </li>
+                <li>
+                  <a href="./subpage.html">이벤트</a>
+                </li>
+                <li>
+                  <a href="./subpage.html">고객센터</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
         </div>
-        <div class="itm">
-          <figure>
-            <a href=""><img src="./img/main2.jpg" alt="" /></a>
-            <h2>DAE SUN SHIPBUILDING & ENGINEERING CO., LTD.</h2>
-            <p>대한민국 대표 중형 조선소</p>
-            <span>
-              대한민국 최초의 민영 조선소로써 대한민국 중소형 조선의 역사를 함께
-              써내려 가겠습니다.</span
-            >
-          </figure>
-        </div>
-        <div class="itm">
-          <figure>
-            <a href=""><img src="./img/main3.jpg" alt="" /></a>
-            <h2>DAE SUN SHIPBUILDING & ENGINEERING CO., LTD.</h2>
-            <p>미래 기술을 선도하는 조선소</p>
-            <span>
-              대한민국 최초의 민영 조선소로써 대한민국 중소형 조선의 역사를 함께
-              써내려 가겠습니다.</span
-            >
-          </figure>
-        </div>
-        <div class="itm">
-          <figure>
-            <a href=""><img src="./img/main4.jpg" alt="" /></a>
-            <h2>DAE SUN SHIPBUILDING & ENGINEERING CO., LTD.</h2>
-            <p>대한민국 대표 중형 조선소</p>
-            <span>
-              대한민국 최초의 민영 조선소로써 대한민국 중소형 조선의 역사를 함께
-              써내려 가겠습니다.</span
-            >
-          </figure>
-        </div>
-        <div class="itm">
-          <figure>
-            <a href=""><img src="./img/main5.jpg" alt="" /></a>
-            <h2>DAE SUN SHIPBUILDING & ENGINEERING CO., LTD.</h2>
-            <p>미래 기술을 선도하는 조선소</p>
-            <span>
-              대한민국 최초의 민영 조선소로써 대한민국 중소형 조선의 역사를 함께
-              써내려 가겠습니다.</span
-            >
-          </figure>
-        </div>
-        <div class="itm">
-          <figure>
-            <a href=""><img src="./img/main6.jpg" alt="" /></a>
-            <h2>DAE SUN SHIPBUILDING & ENGINEERING CO., LTD.</h2>
-            <p>미래 기술을 선도하는 조선소</p>
-            <span>
-              대한민국 최초의 민영 조선소로써 대한민국 중소형 조선의 역사를 함께
-              써내려 가겠습니다.</span
-            >
-          </figure>
-        </div>
-        <div class="itm">
-          <figure>
-            <a href=""><img src="./img/main7.jpg" alt="" /></a>
-            <h2>DAE SUN SHIPBUILDING & ENGINEERING CO., LTD.</h2>
-            <p>대한민국 대표 중형 조선소</p>
-            <span>
-              대한민국 최초의 민영 조선소로써 대한민국 중소형 조선의 역사를 함께
-              써내려 가겠습니다.</span
-            >
-          </figure>
-        </div>
-      </div>
-    </section>
+      </header>
 
-    <section class="mainContent">
-      <h2>제품정보</h2>
-      <p>최고의 품질과 최상의 서비스로 고객만족을 최우선으로 하겠습니다.</p>
-      <div class="img_box">
-        <div class="img">
-          <figure>
-            <a href="/"><img src="./img/others01-thum.jpg" alt="" /></a>
-          </figure>
-          <b>Others</b>
-          <span>Multi Purpose Vessel</span>
-          <button>
-            <a href=""><img src="./img/ic_more.png" alt="" /></a>
-          </button>
-        </div>
-        <div class="img">
-          <figure>
-            <a href="/"><img src="./img/others03-thum.jpg" alt="" /></a>
-          </figure>
-          <b>Others</b>
-          <span>Radioactive Waste Carrier</span>
-          <button>
-            <a href=""><img src="./img/ic_more.png" alt="" /></a>
-          </button>
-        </div>
-        <div class="img">
-          <figure>
-            <a href="/"><img src="./img/others04-thum.jpg" alt="" /></a>
-          </figure>
-          <b>Others</b>
-          <span>80m Purse Seinor</span>
-          <button>
-            <a href=""><img src="./img/ic_more.png" alt="" /></a>
-          </button>
-        </div>
-        <div class="img">
-          <figure>
-            <a href="/"><img src="./img/others05-thum.jpg" alt="" /></a>
-          </figure>
-          <b>Others</b>
-          <span>3,500 CBM LPG Carrie</span>
-          <button>
-            <a href=""><img src="./img/ic_more.png" alt="" /></a>
-          </button>
-        </div>
-        <div class="img">
-          <figure>
-            <a href="/"><img src="./img/others06-thum.jpg" alt="" /></a>
-          </figure>
-          <b>Others</b>
-          <span>Fishery Patrol Vesse</span>
-          <button>
-            <a href=""><img src="./img/ic_more.png" alt="" /></a>
-          </button>
-        </div>
-        <div class="img">
-          <figure>
-            <a href="/"><img src="./img/others07-thum.jpg" alt="" /></a>
-          </figure>
-          <b>Others</b>
-          <span>160M Car Ferry</span>
-        </div>
-      </div>
-      <div class="controller">
-        <a href="#!"><i class="xi-arrow-left"></i></a>
-        <a href="#!"><i class="xi-arrow-right"></i></a>
-      </div>
-    </section>
+      <main>
+        <section class="mainVisual">
+          <div class="main_slide">
+            <figure>
+              <a href=""><img src="./img/image (1).webp" alt="" /></a>
+            </figure>
+            <figure>
+              <a href=""><img src="./img/image (2).webp" alt="" /></a>
+            </figure>
+            <figure>
+              <a href=""><img src="./img/image (3).webp" alt="" /></a>
+            </figure>
+            <figure>
+              <a href=""><img src="./img/image (4).webp" alt="" /></a>
+            </figure>
+            <figure>
+              <a href=""><img src="./img/image (5).webp" alt="" /></a>
+            </figure>
+            <figure>
+              <a href=""><img src="./img/image (6).webp" alt="" /></a>
+            </figure>
+            <figure>
+              <a href=""><img src="./img/image (7).webp" alt="" /></a>
+            </figure>
+          </div>
+        </section>
 
-    <footer class="footer">
-      <div class="inner">
-        <h1>
-          <a href=""><img src="./img/logo_footer (1).png" alt="" /></a>
-        </h1>
+        <section class="subVisual">
+          <div class="inner">
+            <figure>
+              <span>방구석 장착 기능</span>
+              <p>타이어 교체</p>
+              <a href=""><img src="./img/sub_1.png" alt="" /> </a>
+            </figure>
+            <figure>
+              <span>방구석 장착 기능</span>
+              <p>타이어 교체</p>
+              <a href=""><img src="./img/sub_2.png" alt="" /> </a>
+            </figure>
+            <figure>
+              <span>방구석 장착 기능</span>
+              <p>타이어 교체</p>
+              <a href=""><img src="./img/sub_3.png" alt="" /> </a>
+            </figure>
+            <figure class="num4">
+              <span>방구석 장착 기능</span>
+              <p>타이어 교체</p>
+              <a href=""><img src="./img/sub_4.png" alt="" /> </a>
+            </figure>
+            <figure class="num5">
+              <span>방구석 장착 기능</span>
+              <p>타이어 교체</p>
+              <a href=""><img src="./img/sub_5.png" alt="" /> </a>
+            </figure>
+            <figure class="num6">
+              <span>방구석 장착 기능</span>
+              <p>타이어 교체</p>
+              <a href=""><img src="./img/sub_6.png" alt="" /> </a>
+            </figure>
+            <figure class="num7">
+              <span>방구석 장착 기능</span>
+              <p>타이어 교체</p>
+              <a href=""><img src="./img/sub_7.png" alt="" /> </a>
+            </figure>
+            <figure class="num8">
+              <span>방구석 장착 기능</span>
+              <p>타이어 교체</p>
+              <a href=""> <img src="./img/sub_8.png" alt="" /></a>
+            </figure>
+          </div>
+        </section>
 
-        <div class="detail">
-          <ul>
-            <li>주소 - 부산광역시 영도구 봉래나루로 254 (봉래동 4가)</li>
-            <li>전화 051-419-5000</li>
-            <li>팩스 051-419-7965</li>
-            <li>이메일 webmaster@daesunship.co.kr</li>
+        <section class="subContent">
+          <div class="desc">
+            <h2>MD추천</h2>
+            <a href="">더보기 +</a>
+          </div>
+          <div class="inner">
+            <div class="img_box">
+              <figure>
+                <a class="a1" href=""><img src="./img/logo-1.webp" alt="" /></a>
+                <a class="a2" href=""><img src="./img/tire-1.webp" alt="" /></a>
+              </figure>
+              <h3>금호</h3>
+              <p class="p1">HP71</p>
+              <strong>225/55R18(HP71)CRUGEN</strong>
+              <d>47%</d><b>96,200원</b>
+            </div>
+
+            <div class="img_box">
+              <figure>
+                <a class="a1" href=""><img src="./img/logo-2.webp" alt="" /></a>
+                <a class="a2" href=""><img src="./img/tire-2.webp" alt="" /></a>
+              </figure>
+
+              <h3>금호</h3>
+              <p>HP71</p>
+              <strong>225/55R18(HP71)CRUGEN</strong>
+              <d>47%</d><b>96,200원</b>
+            </div>
+
+            <div class="img_box">
+              <figure>
+                <a class="a1" href=""><img src="./img/logo-3.webp" alt="" /></a>
+                <a class="a2" href=""><img src="./img/tire-3.webp" alt="" /></a>
+              </figure>
+              <h3>금호</h3>
+              <p>HP71</p>
+              <strong>225/55R18(HP71)CRUGEN</strong>
+              <d>47%</d><b>96,200원</b>
+            </div>
+
+            <div class="img_box">
+              <figure>
+                <a class="a1" href=""><img src="./img/logo-3.webp" alt="" /></a>
+                <a class="a2" href=""><img src="./img/tire-4.webp" alt="" /></a>
+              </figure>
+              <h3>금호</h3>
+              <p>HP71</p>
+              <strong>225/55R18(HP71)CRUGEN</strong>
+              <d>47%</d><b>96,200원</b>
+            </div>
+          </div>
+        </section>
+
+        <section class="background">
+          <div class="inner">
+            <a href=""><img src="./img/background.webp" alt="" /></a>
+          </div>
+        </section>
+
+        <section class="bestTire">
+          <div class="desc">
+            <h2>MD추천</h2>
+            <a href="">더보기 +</a>
+          </div>
+          <div class="inner">
+            <div class="img_box">
+              <figure>
+                <a class="a1" href=""><img src="./img/logo-1.webp" alt="" /></a>
+                <a class="a2" href=""><img src="./img/tire-1.webp" alt="" /></a>
+              </figure>
+              <h3>금호</h3>
+              <p class="p1">HP71</p>
+              <strong>225/55R18(HP71)CRUGEN</strong>
+              <d>47%</d><b>96,200원</b>
+            </div>
+
+            <div class="img_box">
+              <figure>
+                <a class="a1" href=""><img src="./img/logo-2.webp" alt="" /></a>
+                <a class="a2" href=""><img src="./img/tire-2.webp" alt="" /></a>
+              </figure>
+
+              <h3>금호</h3>
+              <p>HP71</p>
+              <strong>225/55R18(HP71)CRUGEN</strong>
+              <d>47%</d><b>96,200원</b>
+            </div>
+
+            <div class="img_box">
+              <figure>
+                <a class="a1" href=""><img src="./img/logo-3.webp" alt="" /></a>
+                <a class="a2" href=""><img src="./img/tire-3.webp" alt="" /></a>
+              </figure>
+              <h3>금호</h3>
+              <p>HP71</p>
+              <strong>225/55R18(HP71)CRUGEN</strong>
+              <d>47%</d><b>96,200원</b>
+            </div>
+          </div>
+        </section>
+
+        <section class="brand">
+          <h2>브랜드포커스</h2>
+          <div class="inner">
+            <figure>
+              <a href=""><img src="./img/brand-1.webp" alt="" /> </a>
+            </figure>
+            <figure>
+              <a href=""><img src="./img/brand-2.webp" alt="" /> </a>
+            </figure>
+            <figure>
+              <a href=""><img src="./img/brand-3.webp" alt="" /> </a>
+            </figure>
+            <figure>
+              <a href=""><img src="./img/brand-4.webp" alt="" /> </a>
+            </figure>
+            <figure>
+              <a href=""><img src="./img/brand-5.webp" alt="" /> </a>
+            </figure>
+            <figure>
+              <a href=""><img src="./img/brand-6.webp" alt="" /> </a>
+            </figure>
+            <figure>
+              <a href=""><img src="./img/brand-7.webp" alt="" /> </a>
+            </figure>
+            <figure>
+              <a href=""><img src="./img/brand-8.webp" alt="" /> </a>
+            </figure>
+            <figure>
+              <a href=""><img src="./img/brand-9.webp" alt="" /> </a>
+            </figure>
+            <figure>
+              <a href=""><img src="./img/brand-10.webp" alt="" /> </a>
+            </figure>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <div class="inner">
+          <div class="left">
+            <ul class="one">
+              <li>카타니 주식회사</li>
+              <li>대표 최우혁</li>
+            </ul>
+            <ul class="two">
+              <li>주소: 서울특별시 마포구 토정로 267</li>
+              <li>사업자번호: 798-81-01842</li>
+            </ul>
+            <span
+              >통신판매업신고 : 제2021-서울마포-3350호
+              <a href="">사업자 정보 확인</a>
+            </span>
+            <strong>Copyright (C) Cartini inc. All rights reserved.</strong>
+          </div>
+          <div class="right">
+            <ul>
+              <li class="strong">고객센터 1600-7013</li>
+              <li>
+                운영시간 평일 09:00 - 18:00 / 토 09:00 - 15:00 (일, 공휴일 휴무)
+              </li>
+              <li>점심시간 12:00 - 13:00</li>
+              <li>이메일 cs@tire-pick.com</li>
+            </ul>
+          </div>
+        </div>
+        <div class="bottom">
+          <ul class="left">
+            <li>인재채용</li>
+            <li>개인정보처리방침</li>
+            <li>장착점 제휴신청</li>
+            <li>이용약관</li>
           </ul>
-          <span
-            >Copyright (C) 2021 DAE SUN SHIPBUILDING & ENGINEERING Co., Ltd. All
-            rights reserved.
-          </span>
+          <ul class="right">
+            <li>
+              <a href=""><i class="xi-youtube-play"></i></a>
+            </li>
+            <li>
+              <a href=""><i class="xi-instagram"></i></a>
+            </li>
+          </ul>
         </div>
-
-        <div class="languge">
-          <form action="">
-            <select name="" id="">
-              <option value="">Language</option>
-              <option value="">EN</option>
-              <option value="">KO</option>
-              <option value="">JP</option>
-            </select>
-          </form>
-        </div>
-      </div>
-    </footer>
+      </footer>
+    </div>
   </body>
 </html>
